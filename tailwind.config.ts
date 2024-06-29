@@ -72,6 +72,12 @@ const config = {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
       },
+      fontFamily: {
+        Lexend: ["var(--font-lexend)", "sans-serif"],
+        LexendGiga: "var(--font-lexend-giga)",
+        LexendDeca: "var(--font-lexend-decagram)",
+        Inter: "var(--font-inter)"
+      },
     },
   },
   plugins: [require("tailwindcss-animate")],

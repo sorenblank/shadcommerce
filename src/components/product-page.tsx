@@ -1,13 +1,14 @@
 import { Label } from "@/components/ui/label"
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group"
 import { Button } from "@/components/ui/button"
+import Image from "next/image"
 import { Separator } from "@/components/ui/separator"
 
 export default function Component() {
   return (
     <div className="grid md:grid-cols-2 gap-6 lg:gap-12 items-start max-w-6xl mx-auto py-6">
       <div className="grid gap-4">
-        <img
+        <Image
           src="/placeholder.svg"
           alt="Product Image"
           width={500}

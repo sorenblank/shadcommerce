@@ -1,8 +1,17 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Shadcommerce
+
+This is a simple website built with Next.js and TailwindCSS. It is a simple e-commerce website that allows users to view products and add them to their cart. It is a simple project that demonstrates the use of Next.js and TailwindCSS.
+
+![Upgrade](/public/og-image.png "This site looks cool doesn't it?")
+
 
 ## Getting Started
 
-First, run the development server:
+To get a local copy up and running, follow these simple steps:
+
+1. Clone the repository.
+2. Install project dependencies with `npm install`.
+3. Start the development server:
 
 ```bash
 npm run dev
@@ -14,23 +23,29 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Navigate to [http://localhost:3000](http://localhost:3000) to view the application in action.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Editing
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+To make changes to the application:
+
+- Edit page layouts in `src/app/layout.jsx`.
+- Modify or create new components within the `src/components/` directory.
+- Add or update styles in `styles/globals.css`.
 
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+- [Next.js Documentation](https://nextjs.org/docs) - Learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - An interactive Next.js tutorial.
+- [MUi Documentation](https://mui.com/getting-started/usage/) - Explore MUi components and utilities.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Deployment
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Deploying your Next.js app is straightforward with the Vercel Platform, optimized for Next.js projects.
 
-## Deploy on Vercel
+- [Vercel Deployment](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) - Deploy with zero configuration.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## License
+
+This project is CLOSED LICENSED. See the [LICENSE.md](LICENSE.md) file for details.
